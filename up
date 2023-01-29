@@ -39,7 +39,7 @@ leftwm command "LoadTheme $SCRIPTPATH/theme.ron"
 
 # Set wallpaper using feh
 if [ -x "$(command -v feh)" ]; then
-	feh --bg-scale "$SCRIPTPATH"/background.jpg &
+	feh --bg-scale "$SCRIPTPATH"/void1_background.png &
 fi
 
 # Launch dunst if installed
