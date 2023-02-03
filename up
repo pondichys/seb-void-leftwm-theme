@@ -31,7 +31,7 @@ numlockx on &
 
 # Launch picom if installed
 if [ -x "$(command -v picom)" ]; then
-	picom --experimental-backends &
+	picom --config "$SCRIPTPATH"/picom.conf --experimental-backends &
 fi
 
 # Set the theme.ron config
